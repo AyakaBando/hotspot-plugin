@@ -1,0 +1,71 @@
+#hotspots-image {
+    width: 640px;
+    height: 480px;
+    object-fit: contain;
+}
+
+#hotspot-interface {
+    width: 640px;
+    height: 480px;
+    position: relative;
+}
+
+.hotspot {
+position: absolute;
+width: 10px;
+height: 10px;
+background-color:#fff;
+border-radius: 50%;
+cursor: pointer;
+}
+
+#hotspot-positions {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+input[type=range] {
+    width: 26rem;
+}
+
+.hotspot-range {
+    width: 100%;
+}
+
+.hotspot-range > input {
+    width: 90%;
+}
+
+.y-position {
+    margin-top: 1rem;
+}
+
+.hotspot-preview {
+    position: absolute;
+    width: 10px; 
+    height: 10px; 
+    background-color: red;
+    border-radius: 50%;
+    pointer-events: none; 
+}
+
+.hotspot-preview .hotspot-circle {
+    width: 100%;
+    height: 100%;
+    border: 2px solid white; 
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.button.button-primary {
+    margin-top: 3rem;
+}
+
+.range-bar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+}
